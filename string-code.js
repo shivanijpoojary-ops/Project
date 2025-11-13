@@ -1,0 +1,24 @@
+//let text = "hello";
+//console.log(text.toLocaleUpperCase());
+//console.log(text.toLocaleLowerCase());
+//console.log(text.repeat(3));
+//console.log(text.trim());
+//console.log(text.trimEnd());
+//console.log(text.trim());
+//console.log(text.trimEnd());
+//console.log(text.trimStart());
+//console.log(text.trim());
+//let text = "bangalore";
+//console.log(text.search("ore"));
+//console.log(text.search("opp"));
+//console.log(text.search("ang"));
+//console.log(text.search("nga"));
+//console.log(text.search("ooo"));
+//console.log(text.split(""));
+let text = "i am in bangalore";
+//console.log(text.split(""));
+//console.log(text.split(" "));
+//console.log(text.split("  "));
+//console.log(text.split("").reverse());
+//console.log(text.split("").reverse().join("")); // IMP
+console.log(text.split(" ").join(""));
