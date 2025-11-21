@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Form</title>
+    <script>
+      function abc() {
+        console.log("i am in change method");
+      }
+      function mnc() {
+        console.log("i am in blurr method");
+      }
+      function efg() {
+        console.log("i am excutig mouse over");
+      }
+      function xyz() {
+        console.log("i am moving out from button");
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" name="fname" onblur="mnc()" onchange="abc()" value="" />
+    <button onmouseover="efg()" onmouseout="xyz()">Submit</button>
+  </body>
+</html>
